@@ -11,7 +11,16 @@ public class ArrayPractice {
 	handle index out of bound scenario
 	*/
 	public static void printElement(int[] arr, int index) {
-		
+	
+	if(index<=arr.length) {
+	    {
+	    System.out.println(arr[index]);
+	    }
+	}
+	else
+	{
+	throw new IndexOutOfBoundsException();
+	}
 	}
 	
 	/*
